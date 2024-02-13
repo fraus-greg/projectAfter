@@ -1,7 +1,9 @@
 import React from "react"
-import logo from "../../../../assets/img/logo.svg"
-import styles from "./Header.styles.scss"
-import font from "./../../../../assets/styles/font.module.scss"
+// Images
+import logo from "../../../../shared/img/logo.svg"
+// Styles
+import styles from "./Header.module.scss"
+import font from "./../../../../shared/styles/font.module.scss"
 
 export default function Header() {
    return (
@@ -9,18 +11,18 @@ export default function Header() {
          <div className={styles.wrap}>
             <img src={logo} alt="logo" />
             <div className={styles.links}>
-               <div className={font.gray20} href="">
+               <a className={font.black20} href="">
                   Продукция
-               </div>
-               <div className={font.gray20} href="">
+               </a>
+               <a className={font.black20} href="">
                   Материалы
-               </div>
-               <div className={font.gray20} href="">
+               </a>
+               <a className={font.black20} href="">
                   О нас
-               </div>
-               <div className={font.gray20} href="">
+               </a>
+               <a className={font.black20} href="">
                   Контакты
-               </div>
+               </a>
             </div>
          </div>
       </header>

@@ -1,0 +1,29 @@
+section {
+   position: relative;
+   width: 1140px;
+   margin: 0 auto;
+   padding: 210px 15px 130px 15px;
+   z-index: -1;
+
+   .content {
+      width: 445px;
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+
+      .button {
+         width: 255px;
+         height: 70px;
+
+         border: 1px solid #7875fe;
+
+         background-color: #fff;
+      }
+   }
+
+   img {
+      position: absolute;
+      top: 120px;
+      left: 585px;
+   }
+}
