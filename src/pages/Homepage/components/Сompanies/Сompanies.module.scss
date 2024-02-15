@@ -1,0 +1,19 @@
+.section {
+   background-color: #ebebeb;
+
+   .wrap {
+      width: 1140px;
+      margin: 0 auto;
+      padding: 90px 15px;
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 1140px) {
+         background-color: #ebebeb;
+      }
+   }
+
+   @media (max-width: 1140px) {
+      background-color: none;
+   }
+}
