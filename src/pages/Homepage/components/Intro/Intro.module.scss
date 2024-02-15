@@ -1,9 +1,9 @@
-section {
+.section {
    position: relative;
    width: 1140px;
    margin: 0 auto;
    padding: 210px 15px 130px 15px;
-   z-index: -1;
+   overflow: hidden;
 
    .content {
       width: 445px;

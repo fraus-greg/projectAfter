@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  styled-components: ^5
+
 dependencies:
   classnames:
     specifier: ^2.5.1

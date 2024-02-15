@@ -1,0 +1,38 @@
+.section {
+   background-color: #ebebeb;
+
+   .wrap {
+      width: 1140px;
+      margin: 0 auto;
+      padding: 90px 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 90px;
+
+      .cards {
+         display: flex;
+         justify-content: space-between;
+      }
+
+      .overview {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         .text {
+            width: 350px;
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+         }
+      }
+
+      @media (max-width: 1140px) {
+         background-color: #ebebeb;
+      }
+   }
+
+   @media (max-width: 1140px) {
+      background-color: none;
+   }
+}

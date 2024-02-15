@@ -8,7 +8,7 @@ import font from "./../../../../shared/styles/font.module.scss"
 
 export default function Header() {
    return (
-      <section>
+      <section className={styles.section}>
          <div className={styles.content}>
             <div className={font.black60}>Простые вещи. Из бумаги</div>
             <div className={font.gray18}>

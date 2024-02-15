@@ -1,0 +1,45 @@
+.article {
+   width: 255px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+   .imgWrap {
+      position: relative;
+      width: 255px;
+      height: 180px;
+      overflow: hidden;
+
+      background-color: #ebebeb;
+
+      img {
+         position: absolute;
+      }
+
+      .img1 {
+         top: 22px;
+         left: -11px;
+      }
+
+      .img2 {
+         top: 12px;
+         left: 15px;
+      }
+
+      .img3 {
+         top: 12px;
+         left: 15px;
+      }
+
+      .img4 {
+         top: 4px;
+         left: 5px;
+      }
+   }
+
+   .content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+   }
+}

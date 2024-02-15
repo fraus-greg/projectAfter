@@ -7,7 +7,7 @@ import font from "./../../../../shared/styles/font.module.scss"
 
 export default function Header() {
    return (
-      <header>
+      <header className={styles.header}>
          <div className={styles.wrap}>
             <img src={logo} alt="logo" />
             <div className={styles.links}>
