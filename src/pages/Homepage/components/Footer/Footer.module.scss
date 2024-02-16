@@ -1,0 +1,16 @@
+.footer {
+   background-color: #4c5866;
+
+   .wrap {
+      margin: 0 auto;
+      padding: 28px 15px;
+      width: 1140px;
+      display: flex;
+      justify-content: space-between;
+
+      .links {
+         display: flex;
+         gap: 30px;
+      }
+   }
+}

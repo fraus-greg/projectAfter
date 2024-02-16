@@ -5,6 +5,8 @@ import Intro from "./components/Intro/Intro.jsx"
 import Materials from "./components/Materials/Materials.jsx"
 import Products from "./components/Products/Products.jsx"
 import Companies from "./components/Сompanies/Companies.jsx"
+import Proposal from "./components/Proposal/Proposal.jsx"
+import Footer from "./components/Footer/Footer.jsx"
 // Styles
 import styles from "./Homepage.styles.scss"
 
@@ -17,7 +19,9 @@ export default function Homepage() {
             <Materials />
             <Products />
             <Companies />
+            <Proposal />
          </main>
+         <Footer />
       </>
    )
 }

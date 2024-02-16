@@ -1,0 +1,23 @@
+.section {
+   position: relative;
+   width: 1140px;
+   height: 500px;
+   margin: 0 auto;
+   padding: 0 15px;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+
+   .content {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+   }
+
+   img {
+      position: absolute;
+      top: 90px;
+      right: 15px;
+   }
+}

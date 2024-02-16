@@ -1,6 +1,6 @@
 import React from "react"
 // Images
-import logo from "../../../../shared/img/logo.svg"
+import darkLogo from "../../../../shared/img/darkLogo.svg"
 // Styles
 import styles from "./Header.module.scss"
 import font from "./../../../../shared/styles/font.module.scss"
@@ -9,7 +9,7 @@ export default function Header() {
    return (
       <header className={styles.header}>
          <div className={styles.wrap}>
-            <img src={logo} alt="logo" />
+            <img src={darkLogo} alt="logo" />
             <div className={styles.links}>
                <a className={font.black20} href="">
                   Продукция
