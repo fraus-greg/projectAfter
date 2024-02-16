@@ -2,7 +2,7 @@
    background-color: #ebebeb;
 
    .wrap {
-      width: 1140px;
+      max-width: 1140px;
       margin: 0 auto;
       padding: 90px 15px;
       display: flex;
@@ -19,8 +19,12 @@
          justify-content: space-between;
          align-items: center;
 
+         img {
+            max-width: 730px;
+         }
+
          .text {
-            width: 350px;
+            max-width: 350px;
             display: flex;
             gap: 20px;
             flex-direction: column;

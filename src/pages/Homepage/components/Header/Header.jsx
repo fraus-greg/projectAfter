@@ -9,7 +9,9 @@ export default function Header() {
    return (
       <header className={styles.header}>
          <div className={styles.wrap}>
-            <img src={darkLogo} alt="logo" />
+            <div className={styles.imgWrap}>
+               <img src={darkLogo} alt="logo" />
+            </div>
             <div className={styles.links}>
                <a className={font.black20} href="">
                   Продукция
